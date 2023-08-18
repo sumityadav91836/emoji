@@ -1,0 +1,49 @@
+.bg-container {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  background-size: cover;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-card {
+  height: auto;
+  width: 40%;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding: 20px 30px;
+  text-align: center;
+}
+
+.heading {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.emojis-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.emoji-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.emoji {
+  height: 40px;
+  width: 40px;
+}
+
+.emoji-name {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #000;
+}
